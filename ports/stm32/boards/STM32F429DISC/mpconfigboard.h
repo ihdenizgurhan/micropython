@@ -24,12 +24,16 @@
 #define MICROPY_HW_UART2_RX     (pin_D6)
 #define MICROPY_HW_UART3_TX     (pin_C10)
 #define MICROPY_HW_UART3_RX     (pin_C11)
+#define MICROPY_HW_UART5_TX     (pin_C12)
+#define MICROPY_HW_UART5_RX     (pin_D2)
 #define MICROPY_HW_UART6_TX     (pin_C6)
 #define MICROPY_HW_UART6_RX     (pin_C7)
 
 // I2C buses
 #define MICROPY_HW_I2C3_SCL (pin_A8)
 #define MICROPY_HW_I2C3_SDA (pin_C9)
+#define MICROPY_HW_I2C2_SCL (pin_B10)
+#define MICROPY_HW_I2C2_SDA (pin_B11)
 
 // SPI buses
 // #define MICROPY_HW_SPI1_NSS     (pin_A4)
